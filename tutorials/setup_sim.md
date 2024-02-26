@@ -1,5 +1,6 @@
 # Setting up the Simulation
 
+## Mavros and Arduplane
 - run the shell_scripts/run_ardu_mavros.sh script
 - make sure to set the streamrate to 50 on the arduplane sitl pane do that by entering the following command
 ```
@@ -13,4 +14,8 @@ takeoff 50 #set the takeoff to 50 meters
 mode guided #switch the aircraft to guided mode to do the autonomous stuff
 ```
 
+## Trajectory Visualizer 
+```
+
+```
 
