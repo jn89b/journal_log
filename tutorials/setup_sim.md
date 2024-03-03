@@ -29,3 +29,12 @@ ros2 launch ros_mpc all_traj.launch.py #runs all the trajectories
 ros2 run drone_ros Drone.py #runs the drone command to send commands to follow a specific trajectory 
 ```
 
+
+## Testing 
+```
+ros2 run rviz2 rviz2 # 
+ros2 launch ros_mpc vis_all_traj.launch.py #visualizes all your trajectories   
+ros2 run drone_ros Drone.py #runs the drone command to send commands to follow a specific trajectory 
+ros2 run pew_pew effector_node.py #runs single effector node
+ros2 run your_trajectory_node
+```
