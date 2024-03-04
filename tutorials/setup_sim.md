@@ -29,7 +29,6 @@ ros2 launch ros_mpc all_traj.launch.py #runs all the trajectories
 ros2 run drone_ros Drone.py #runs the drone command to send commands to follow a specific trajectory 
 ```
 
-
 ## Testing 
 ```
 ros2 run rviz2 rviz2 # 

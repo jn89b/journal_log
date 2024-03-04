@@ -52,9 +52,7 @@
 - System Identification using ML and first order derivations - Time constant modeling with error, attitude command * some time_constant with error, can we update our integrator model
 - We have dynamic threat avoidance cost function - simulate percieved trajectories of adversaries, right now using nominal PN trajectories  
 
-
 ## Slide 11 - End 
-
 
 # To dos 
 - [x] Log and simulate real time trajectory with effector 
@@ -62,3 +60,36 @@
     - Time on Target
     - Tracking peformance based on perfect ideal location 
     - How align/on target was I?
+
+# Data sets to use
+- For comparison of bang bang, slow velocity and custom directional cost function use these datasets:
+    - bang_bang_2 
+    - direct_traj_18
+    - slow_slow_3
+    - Emphasis we can still get there fast, but slow down on approach to target, and also maximize onbore sight 
+- For obstacle avoidance to goal target consider these datasets:
+- Note used a 20 meter effector but we can close 5 meters (DANGEROUS), 10-13M meter realistic,
+- Note the diameter of target is one meter, need to project the face of we what we are trying to shoot 
+    - slow_slow_9
+    - direct_traj_26
+    - bang_bang_8
+- Results for these are as follows:
+```
+This is direct_traj_26
+Time of engagement: 1.4450085163116455 seconds
+Number of shots: 1445.0085163116455
+Total time: 32.14950728416443 seconds
+
+This is bang_bang_8
+runfile('/home/justin/ros2_ws/src/drone_ros/drone_ros/log/data_analysis.py', wdir='/home/justin/ros2_ws/src/drone_ros/drone_ros/log')
+Reloaded modules: DataParser
+Time of engagement: 1.2619678974151611 seconds
+Number of shots: 1261.9678974151611
+Total time: 23.526413679122925 seconds
+
+This is slow_slow_9
+Time of engagement: 1.2828295230865479 seconds
+Number of shots: 1282.8295230865479
+Total time: 45.38232707977295 seconds
+
+```
