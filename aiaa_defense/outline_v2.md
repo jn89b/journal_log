@@ -62,11 +62,15 @@
     - How align/on target was I?
 
 # Data sets to use
+
+## General Comparisoin
 - For comparison of bang bang, slow velocity and custom directional cost function use these datasets:
     - bang_bang_2 
     - direct_traj_18
     - slow_slow_3
     - Emphasis we can still get there fast, but slow down on approach to target, and also maximize onbore sight 
+
+## Single Obstacle avoidance 
 - For obstacle avoidance to goal target consider these datasets:
 - Note used a 20 meter effector but we can close 5 meters (DANGEROUS), 10-13M meter realistic,
 - Note the diameter of target is one meter, need to project the face of we what we are trying to shoot 
@@ -91,5 +95,16 @@ This is slow_slow_9
 Time of engagement: 1.2828295230865479 seconds
 Number of shots: 1282.8295230865479
 Total time: 45.38232707977295 seconds
-
 ```
+## Showcase stuff
+- Clustered environment close to goal location check out the dataset:
+    -  walled_direct_traj_3 hit from 45 degree angle SW 
+    -  walled_direct_traj_4 hit from 90 degree angle SOUTH
+    - 'walled_obstacles' # obstacle config
+
+## Obstacle avoidance 
+- Check out these datasets:
+    - 'obs_avoid_17', 'obs_avoid_18', 'obs_avoid_19'
+    - 'obstacle_config_1'#obstacle config
+    - 'obs_avoid_22' 
+    - 'obstacle_config_2''#obstacle config
