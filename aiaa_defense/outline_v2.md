@@ -108,3 +108,13 @@ Total time: 45.38232707977295 seconds
     - 'obstacle_config_1'#obstacle config
     - 'obs_avoid_22' 
     - 'obstacle_config_2''#obstacle config
+
+
+## Omnidirectional 
+- Simple example check out this dataset:
+    - 'omni_traj_14'
+- Avoidance 
+    - multi_omni_avoid_3 
+    - multi_omni_avoid_config
+    - multi_omni_avoid_19
+    - omni_avoid_another_one

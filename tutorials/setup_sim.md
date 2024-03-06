@@ -37,3 +37,5 @@ ros2 run drone_ros Drone.py #runs the drone command to send commands to follow a
 ros2 run pew_pew effector_node.py #runs single effector node
 ros2 run your_trajectory_node
 ```
+
+## 
