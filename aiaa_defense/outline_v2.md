@@ -118,3 +118,8 @@ Total time: 45.38232707977295 seconds
     - multi_omni_avoid_config
     - multi_omni_avoid_19
     - omni_avoid_another_one
+
+
+# Thoughts
+- Why do we care?
+- What can we get out of it?
