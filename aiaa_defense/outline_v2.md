@@ -75,8 +75,9 @@
 - Note used a 20 meter effector but we can close 5 meters (DANGEROUS), 10-13M meter realistic,
 - Note the diameter of target is one meter, need to project the face of we what we are trying to shoot 
     - slow_slow_9
-    - direct_traj_26
     - bang_bang_8
+    - new_direct_traj_13, new_direct_traj_17 
+    - new_omni_traj_29
 - Results for these are as follows:
 ```
 This is direct_traj_26
@@ -102,13 +103,18 @@ Total time: 45.38232707977295 seconds
     -  walled_direct_traj_4 hit from 90 degree angle SOUTH
     - 'walled_obstacles' # obstacle config
 
+    - new_direct_avoid_wall_7 # avoid from SW with directional
+    - new_omni_avoid_wall_2   # avoid from SW with omni
+    - new_walled_goal #obstacle config 
+    
+    - new_omni_avoid_wall_7 #avoid from S with omni
+
 ## Obstacle avoidance 
 - Check out these datasets:
     - 'obs_avoid_17', 'obs_avoid_18', 'obs_avoid_19'
     - 'obstacle_config_1'#obstacle config
     - 'obs_avoid_22' 
     - 'obstacle_config_2''#obstacle config
-
 
 ## Omnidirectional 
 - Simple example check out this dataset:
