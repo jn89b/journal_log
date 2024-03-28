@@ -102,7 +102,7 @@ Total time: 45.38232707977295 seconds
     -  walled_direct_traj_3 hit from 45 degree angle SW 
     -  walled_direct_traj_4 hit from 90 degree angle SOUTH
     - 'walled_obstacles' # obstacle config
-
+    
     - new_direct_avoid_wall_7 # avoid from SW with directional
     - new_omni_avoid_wall_2   # avoid from SW with omni
     - new_walled_goal #obstacle config 
