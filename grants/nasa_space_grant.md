@@ -24,6 +24,36 @@ Sincerely,
 [Your Name]
 
 
+
+
+Justin Nguyenvu
+3205 South Mark Twain Avenue
+Blue Springs, MO 64015
+(816) 929-1163
+jnguyenblue2804@gmail.com
+
+[Date]
+
+NASA Grant Program Coordinator
+National Aeronautics and Space Administration
+[Address Line 1]
+[Address Line 2]
+[City], [State] [Zip]
+
+Dear NASA Grant Program Coordinator,
+
+I am applying for NASA's summer program, driven by my commitment to Urban Air Mobility (UAM) and Advanced Air Mobility (AAM) advancements. My interdisciplinary Ph.D. in Computer Science and Mechanical Engineering at the University of Missouri-Kansas City, coupled with professional experiences at Lockheed Martin, Missouri Institute for Defense and Energy, and Edwards Air Force Base, has prepared me to contribute significantly to aerospace innovation.
+
+My proposed project focuses on integrating Small Language Models (SLMs) into UAVs for clearer decision-making frameworks, aligning with NASA's AAM vision. This role capitalizes on my skills in Deep Reinforcement Learning (DRL) and my practical experiences with UAV systems, aiming to enhance AI transparency and efficiency in air traffic control interactions.
+
+I am keen to apply my expertise in AI, deep learning, and machine learning to support NASA's objectives in air mobility, ensuring safer, more reliable autonomous aerospace systems. I look forward to the opportunity to collaborate with NASA's team and contribute to the future of aerospace technology.
+
+Thank you for considering my application.
+
+Sincerely,
+
+Justin Nguyenvu
+
 ## Note check out the following links:
 https://www.nasa.gov/centers-and-facilities/armstrong/autonomous-systems/#hds-sidebar-nav-3
 
@@ -33,13 +63,13 @@ https://www.nasa.gov/intelligent-systems-division/autonomous-systems-and-robotic
 # Enhancing Decision-Making in Urban Air Mobility Using Language Models for Unmanned Aircraft Vehicles
 
 ## Project Scope and Objectives
-The project aims to aid the Urban Air Mobility (UAM) and Advanced Air Mobility (AAM) by building upon common practices of Deep Reinforcement Learning (DRL) through incorporating Small Language Models (SLMs) into the decision-making framework of Unmanned Aircraft Vehicles (UAVs). By utilizing SLMs this would provide transparency for the actions fo these autonomous systems to interact with Air Traffic Control (ATC) in UAM environments, in comparison to end-to-end training pipelines for autonomous systems. By providing/showcasing this feature, it would elevate operation standards by ensuring these agents comply to safety regulations of UAM regulations through its transparency and capabilities to provide reasoning through its actions.
+    The project aims to aid the Urban Air Mobility (UAM) and Advanced Air Mobility (AAM) by building upon common practices of Deep Reinforcement Learning (DRL) through incorporating Small Language Models (SLMs) into the decision-making framework of Unmanned Aircraft Vehicles (UAVs). By utilizing SLMs this would provide transparency for the actions fo these autonomous systems to interact with Air Traffic Control (ATC) in UAM environments, in comparison to end-to-end training pipelines for autonomous systems. By providing/showcasing this feature, it would elevate operation standards by ensuring these agents comply to safety regulations of UAM regulations through its transparency and capabilities to provide reasoning through its actions.
 
 ## My Role in the Project
 My role in this project is train and finetune the SLM utilizing DRL to generate a synthetic dataset which will then be interfaced with a Large Lanugage Model (LLM) to instruct the SLM on decision making when traversing through a stochastic environment. This synthetic dataset will be derived from my simulation framework that I am developing, which encorporates a high-fidelity model of the aircraft flight dynamics. 
 
 ## Approach and Anticipated Outcomes
-The approach for this project is shown in Figure (insert the high level architecture figure). The first component (which is the first deliverable) that will be tasked is to build the simulation environment which encapsulates a dynamic environment with other agents, which will simulate the UAM environment. In addition JSBSim, high-fidelity Flight Dynamics Model module will be utilized to represent the flight dynamics of the agent traversing through this environment. From this environment DRL will be used to train the DRL agent utilizing Proximal Policy Optimization (PPO) to find the optimal policy to navigate through this stochastic environment. After the DRL agent has been trained to find the optimal policy, synthetic datasets will be created with numeric encoding collected on the actuations and surroundings of the agent during data collection.   
+The approach for this project is shown in Figure (insert the high level architecture figure). The first component (which is the first deliverable) that will be tasked is to build the simulation environment which encapsulates a dynamic environment with other agents, which will simulate the UAM environment. In addition JSBSim, high-fidelity Flight Dynamics Model module will be utilized to represent the flight dynamics of the agent traversing through this environment. From this environment DRL will be used to train the DRL agent utilizing Proximal Policy Optimization (PPO) to find the optimal policy to navigate through this stochastic environment. After the DRL agent has been trained to find this policy, synthetic datasets will be created with numeric values collected on the reference commands and surroundings the DRL agent experienced.   
 
 With this numeric dataset, the dataset will be augmented through a language generator and interfaced with a LLM, ChatGPT4. The LLM will then be prompted that it is an expert UAS operator in UAM environments, and is tasked with generating Question-Answer (QA) Datasets, with actuations of high level attitude commands, with provided reasoning behind these commands.  
 
