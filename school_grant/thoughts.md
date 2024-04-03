@@ -9,7 +9,7 @@
 
 
 
-# Problem to Subproblems
+# Subproblems
 - Aircraft guidance and navigation
     - Aircraft must be able to identify and track the target with uncertainty considerations
     - Aircraft has to fly trajectory with considerations of wind and figure out when it should drop the payload 
