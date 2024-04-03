@@ -7,8 +7,6 @@
     - A lot of Gaussian assumptions
     - Don't see updating model based on uncertainty/measurements real time 
 
-
-
 # Subproblems
 - Aircraft guidance and navigation
     - Aircraft must be able to identify and track the target with uncertainty considerations
