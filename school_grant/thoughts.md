@@ -15,3 +15,10 @@
 - Parafoil guidance and navigation
     - Once deployed the parafoil must be able to guide itself to the target landing location with wind considerations 
     - It must track its target utilizing low cost navigation strategies (can't stick a Jetson Orin with expensive cameras on the system)
+
+
+    # Notes
+    - Grant 
+        - Hot takes 
+        - Gaps 
+        - What to do 
