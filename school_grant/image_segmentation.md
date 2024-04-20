@@ -63,10 +63,17 @@ https://github.com/robot-learning-freiburg/ros_sam
     - Estimate how its moving with Kalman Filters or optical flow mechnaism
     - Predict how its going to move 
 
-
 ## Monocular Depth estimation 
 https://medium.com/toyotaresearch/monocular-depth-in-the-real-world-99c2b287df34
-
+https://arxiv.org/pdf/1907.01341v3.pdf
+https://github.com/isl-org/MiDaS/issues/171
+- Check out Midas can estimate depth, don't know what capabilities are 
+- https://arxiv.org/abs/2307.14460
+- https://medium.com/axinc-ai/midas-a-machine-learning-model-for-depth-estimation-e96119cc1a3c
+- https://github.com/isl-org/MiDaS
 
 # Position estimation 
 https://blog.roboflow.com/estimate-speed-computer-vision/
+
+https://wiki.dfrobot.com/brief_analysis_of_camera_principles
+https://towardsdatascience.com/depth-estimation-1-basics-and-intuition-86f2c9538cd1

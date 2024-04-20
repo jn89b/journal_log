@@ -4,6 +4,7 @@
 ## First what are Convolutional Neural Networks
 Convolution Neural Networks typically utilized for classification and computer vision algorithms. Before, feature extraction of images were hand-crafted and selected by engineers, which is super hard to scale up.
 
+
 ## How does a CNN work?
 Three components:
 - Convolutional layer
